@@ -1,6 +1,6 @@
 import 'reflect-metadata';
 import express from 'express';
-import { testEndPoints } from './controllers/test';
+import { testEndPoints } from './test.endpoints';
 
 var path = require('path');
 export const appRoot = path.resolve(__dirname);
